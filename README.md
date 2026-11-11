@@ -1,5 +1,7 @@
 # Template de API RESTful (FastAPI + SQLite) - Monolito (Projeto A3)
 
+> ✅ **Branch `multicamadas`:** esta branch já contém a refatoração em camadas (`main.py`, `repository.py`, `models.py`, `database.py`). O que foi feito está documentado em **[DOCUMENTACAO.md](DOCUMENTACAO.md)**. Para executar: `uv sync` e depois `uv run uvicorn main:app --reload`.
+
 > 💡 **AVISO IMPORTANTE:** Este repositório contém a estrutura base desenvolvida para o **Projeto A3** em formato **monolítico**. Todo o ciclo de vida da aplicação — conexão com o banco, estruturação de dados e roteamento — está concentrado em um único arquivo (`main.py`). Ao final deste documento, há um guia prático de como evoluir esta base para o **Projeto A4**, adotando uma arquitetura em múltiplas camadas.
 
 Esta é uma API educacional desenvolvida em Python com o framework **FastAPI** e banco de dados relacional **SQLite**. Ela atende aos requisitos iniciais de persistência de dados e documentação automática, servindo como backend para integração com a UC de Usabilidade.

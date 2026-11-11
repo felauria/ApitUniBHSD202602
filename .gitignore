@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+.venv/
+banco_a3.db
+uv.lock
